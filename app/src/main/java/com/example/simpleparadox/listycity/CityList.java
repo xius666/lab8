@@ -33,6 +33,10 @@ public class CityList {
         return list;
     }
 
+    public String getProvince(City city){
+        return city.getProvinceName();
+    }
+
     /**
      * This method checks to see if a city already exists in the list
      * @param city
@@ -74,6 +78,7 @@ public class CityList {
      * @return
      *      Size of city list
      */
+
     public int countCities() {
         return cities.size();
     }
