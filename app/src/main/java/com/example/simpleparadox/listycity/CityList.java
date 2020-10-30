@@ -34,7 +34,7 @@ public class CityList {
     }
 
     public String getProvince(City city){
-        return "1";
+        return "12";
     }
 
     /**
